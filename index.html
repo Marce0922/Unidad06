@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Acoplamiento en el HEAD-->
+    <script type="text/javascript">
+    window.alert("Hola Mundo 01!");
+    </script>
+</head>
+
+<body>
+    <h1>JavaScript en el FrontEnd</h1>
+<!-- Acoplamiento de codigo en el body, ésta línea se corre con el servidor-->
+<script type="text/javascript">
+    var dato = "Hola Mundo 03!";
+    console.log(dato);
+    document.writeln(dato);
+</script>
+
+<!-- Acoplamiento como atributo de una etiqueta HTML-->
+<button onclick="window.alert('Hola Mundo 04!')">Ventana</button>
+
+<!-- Acoplamiento desde archivo externo-->
+<script src=".JS/codigo.js"></script>
+</body>
+</html>
