@@ -9,7 +9,7 @@ var varhola = 'texto3'
 var varhola = 'Hola Mundo'
 var01 = 'JavaScript'
 
-console.log(varhola + var01)
+console.log(varhola + var01) //Aqui uso el operador + como concatenar
 
 //Declaración de constantes
 const PI = 3.1416
