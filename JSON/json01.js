@@ -1,4 +1,6 @@
+/*cadena de texto en JSON */
 const JsonObj = '{"Nombre":"Felipe","Genero":false,"Edad":47}'
+/*Se crea objeto en JavaScript */
 const ObjJs = JSON.parse(JsonObj)
 
 console.log(JsonObj)
